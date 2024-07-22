@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose the Best</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        function buttonA(){
+            document.getElementById("option_a").style="background-color:red;";
+            document.getElementById("option_a_ans").style="background-color:red;";
+            alert("Correct option is D")
+        }
+
+        function buttonB(){
+            document.getElementById("option_b").style="background-color:red;";
+            document.getElementById("option_b_ans").style="background-color:red;";
+            alert("Correct option is D")
+        }
+        function buttonC(){
+            document.getElementById("option_c").style="background-color:red;";
+            document.getElementById("option_c_ans").style="background-color:red;";
+            alert("Correct option is D")
+        }
+        function buttonD(){
+            document.getElementById("option_d").style="background-color:green;";
+            document.getElementById("option_d_ans").style="background-color:green;";
+        }
+    </script>
+    <style>
+         body{
+            background-color: lightgray;
+         }
+         .option{
+            margin: 0%;
+            height: 30px;
+         }
+         .answer{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-right: 20px;
+            height: 30px;
+         }
+         button{
+            height: 29px;
+            font-size: 18px;
+            height: 20px;
+         }
+    
+    </style>
+   </head>
+<body>
+    <div class="container">
+        <h1>
+            In web design, what<br> does CSS stand for________?
+        </h1>
+        <div class="merge">
+            <button class="option " id="option_a">A</button>
+            <button type="button" class="answer" id="option_a_ans" onclick="buttonA()"> Counter Strike Source</button>
+        </div>
+        <div class="merge">
+            <button class="option " id="option_b">B</button>
+            <button class="answer " id="option_b_ans" onclick="buttonB()"> Corrective Style Sheet</button>
+        </div>
+        <div class="merge">
+            <button class="option " id="option_c">C</button>
+            <button class="answer " id="option_c_ans" onclick="buttonC()"> Computer Style Sheet</button
+                >
+        </div>
+        <div class="merge">
+            <button class="option " id="option_d">D</button>
+            <button class="answer " id="option_d_ans" onclick="buttonD()"> Cascading Style Sheet</button>
+        </div>
+        
+    </div>
+   
+
+</body>
+</html>
